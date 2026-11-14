@@ -1,0 +1,190 @@
+{
+  title: "Kinoh: Pick up the sword",
+  command: "Kinoh: Pick up the sword",
+  content: {
+    blocks: [
+      {
+        type: "suggestions",
+        items: [
+          {
+            handle: "Hyrmmings",
+            text: "Raise the sword and sing a little jingle"
+          },
+          {
+            handle: "Marrowind",
+            text: "loot the boots, obviously"
+          },
+          {
+            handle: "Talenkeep",
+            text: "Step through the hole! What’s out there?"
+          }
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Kinoh holding the sword in the corridor, the hole in the wall behind her, sky faintly visible beyond it"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You pick up the sword. It’s heavier than you expected, and you hold it like it’s a stranger’s baby.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You get the sudden urge to raise the sword over your head, and as you lift it up...</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Nothing happens.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>No music plays and no light shines down. You are a naked cat holding a stick inside a burning prison.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "View from behind Kinoh, silhouette, you can see a red-orange glow over the walls and fire encroaching the corners of the frame."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>...You hold it there a little longer, just in case.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You hum a few notes to help things along. You don’t feel any more heroic.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Eventually your arms get tired. You lower the sword, scoop up the boots, and step through the hole, curious what’s out there.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You’ve been in a stone room for three weeks, and this is the first sky you’ve seen in that time, and it has a dragon in it.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "wide shot from the hole in the keep wall: the town below is burning, and a huge winged shape circles over the rooftops in the distance."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Nobody has seen a dragon in ages. You’re pretty sure they were a myth.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Kinoh sitting on a chunk of fallen keep wall, sword across her knees, looking at the burning town. The dragon is a small dark shape in the smoke behind her."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You sit on a chunk of fallen wall. It’s still warm from the fire. Being naked would be worse if you weren’t already covered in fur, which you count as the one upside.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Time to take stock of your inventory:</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<ul>",
+          "<li>1x Iron Sword</li>",
+          "<li>1x Pair Of Boots That You Don’t Own</li>",
+          "</ul>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>And nothing else. Great.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the boots, sitting neatly beside the broken wall"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Everything went so fast that you’re not sure how to feel about any of it.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You could look for survivors, maybe. You could follow the dragon, which is probably a terrible idea. Or you could find some clothes, which seems like the most sensible choice.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Kinoh sitting on the fallen wall, with a lightbulb over her head"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Oh right! The boots!</p>"
+        ]
+      },
+      {
+        type: "next",
+        page: 8,
+        label: "Kinoh: Put on the boots"
+      }
+    ]
+  },
+  meta: {
+    chapter: 1,
+    page: 7,
+    timestamp: "Sep 29 2026",
+    author: "",
+    notes: "Draft. Swap each placeholder item for {type:'image', src:'...', alt:'...'}"
+  }
+}

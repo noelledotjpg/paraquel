@@ -1,0 +1,147 @@
+{
+  title: "Kinoh: Follow the guard",
+  command: "Kinoh: Follow the guard",
+  content: {
+    blocks: [
+      {
+        type: "suggestions",
+        items: [
+          {
+            handle: "Nettlewick",
+            text: "pickpocket him one last time for old times’ sake"
+          },
+          {
+            handle: "gravelbeard99",
+            text: "RUN!!!!!!!!!!!!!!!!!!"
+          },
+          {
+            handle: "Ostrelle",
+            text: "Ask him about the boots."
+          }
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "a dim corridor, Halvard walking ahead, Kinoh a step behind, viewed from the side. You can see other jail cells behind the two."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Your hand is already halfway to his belt. You notice this, stop, and put it away. This counts as personal growth!</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Running is out of the question too. You’re being released. Running away from something you’re already being given would just be silly.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Kinoh’s POV looking down at Halvard’s boots from behind him; they sparkle a lot despite being made of leather."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Those boots, though. You ask him about the boots.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>He tells you they were expensive, and that he saved for four months to afford such luxury. They still squeak, he admits. He wants you to know they have never been stolen, and he intends to keep it that way.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Halvard and Kinoh at the corridor’s end, dust falling from the ceiling"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Something rumbles, louder this time. A little dust drifts down from the ceiling, and the walls shake.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Halvard looks up. He says it’s probably a cart.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You tell him you were just about to say that.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "a crack in the corridor wall, glowing orange"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>A crack splits one of the prison walls. It glows bright orange.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You aren’t scared. Even if you flinched a little.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You step past Halvard to inspect the crack. Maybe you can see something on the other side.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Kinoh looking out the crack, eyes bulging out"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>That was not a cart at all.</p>"
+        ]
+      },
+      {
+        type: "next",
+        page: 6
+      }
+    ]
+  },
+  meta: {
+    chapter: 1,
+    page: 5,
+    timestamp: "Sep 29 2026",
+    author: "",
+    notes: "Draft. Swap each placeholder item for {type:'image', src:'...', alt:'...'}"
+  }
+}

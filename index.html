@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/ico.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/mspfa.css">
+  <title id="page-title">PARAQUEL</title>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Paraquel">
+  <meta property="og:description" content="The (Mis)adventures of a Thieving Cat">
+  <meta name="description" content="The (Mis)adventures of a Thieving Cat">
+</head>
+<body>
+  <div id="main">
+    <header id="site-header"></header>
+
+    <div id="pager"></div>
+
+    <div id="container"><div id="slide">
+      <div id="command-wrap">
+        <div id="pagedate"></div>
+        <h1 id="command"><span id="command-text"></span></h1>
+      </div>
+
+      <div id="content"><span id="page-content"></span></div>
+
+      <div id="foot">
+        <div id="links"></div>
+        <p class="footlinks" style="margin-top:28px">
+          <a id="startover" href="index.html?p=1" hidden>Start over</a><span class="sep" id="sep1" hidden>|</span><a id="goback" href="" hidden>Go back</a>
+        </p>
+        <p class="footlinks">
+          <a id="savegame" href="#">Save game</a><span class="sep">|</span><a id="loadgame" href="#">Load game</a><span class="sep">|</span><a id="deletegame" href="#">Delete game data</a>
+        </p>
+      </div>
+    </div></div>
+
+    <section id="latestpages"><div id="latest"><h3>Latest updates</h3><ul id="latest-list"></ul></div></section>
+
+    <footer id="site-footer"></footer>
+  </div>
+
+  <script src="https://unpkg.com/json5@2/dist/index.min.js"></script>
+  <script src="js/chrome.js"></script>
+  <script src="js/adventure_state.js"></script>
+  <script src="js/save_state.js"></script>
+  <script src="js/pages_index.js"></script>
+  <script src="js/page_builder.js"></script>
+  <script>
+    [['savegame', 'save'], ['loadgame', 'load'], ['deletegame', 'clear']].forEach(([id, fn]) =>
+      document.getElementById(id).addEventListener('click', e => { e.preventDefault(); MSPFA_SAVE[fn](); }));
+  </script>
+</body>
+</html>

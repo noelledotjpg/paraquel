@@ -1,0 +1,61 @@
+{
+  title: "==>",
+  command: "==>",
+  content: {
+    blocks: [
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the cat’s face reflected in the water bowl, <em>very</em> honest blank-stared smirk"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You were going to serve your time quietly. You were going to be so agreeable that the guards would forget you were even there!</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You practiced your most honest expression in the reflection of your water bowl until you could hold it for a full minute. When they let you go, you would stay on roads, take work that didn’t involve pockets, and never again go near a bush.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the water bowl, its surface trembling"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Somewhere far off, something rumbles. The water shivers. You think it must be a cart.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>The guard arrives with the release ledger. Name, signature, and a line for your surname. You realize you’ve never had one you liked. You think you’ll fix that today.</p>"
+        ]
+      },
+      {
+        type: "next",
+        page: 3
+      }
+    ]
+  },
+  meta: {
+    chapter: 1,
+    page: 2,
+    timestamp: "Sep 29 2026",
+    author: "",
+    notes: "Draft. Swap each placeholder item for {type:'image', src:'...', alt:'...'}"
+  }
+}

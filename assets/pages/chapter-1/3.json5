@@ -1,0 +1,126 @@
+{
+  title: "Sign the ledger",
+  command: "Sign the ledger",
+  content: {
+    blocks: [
+      {
+        type: "suggestions",
+        items: [
+          {
+            handle: "Tarrowmoss",
+            text: "Sign it “Bush”."
+          },
+          {
+            handle: "quillnibs",
+            text: "bushdiddler lol"
+          },
+          {
+            handle: "FrostbiteFan",
+            text: "Read the fine print first! There’s always a catch!!!"
+          }
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the ledger, thick as a brick, with tiny writing on every page"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You don’t read fine print. Fine print is for people who are afraid of what it says!!!</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>The guard tells you it says you agree not to steal from the Jarl, the Jarl’s household, or anyone the Jarl has ever met. That sounds fine. It’s probably a lot of people, but you try not to think about it much.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the cat standing calmly, arms folded, while the guard watches her"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Frankly, you aren’t afraid of anything in here! Not the guard, not the dark, not heights or deep water, not the cold, and not whatever is in the cell next to yours!</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>The guards say this is the actual problem.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "close-up of the ledger: a first name already printed at the top in neat block capitals (KINOH), and beside it a long blank line for the surname"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>The ledger already has your first name on it, printed at the top in the guard’s careful capitals: KINOH. He spelled it right on the first try, which nobody ever does, and you decide to like him a little for it.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Beside it is a long blank line, where the rest of you is supposed to go.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Now, the surname. No, you won’t be writing “Bush.” Not now, not ever.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You want a surname that sounds like a person who has never been <em>in</em> a bush. One that looks good in ink and doesn’t sound like it has ever spent a night in a cell. It doesn’t even have to mean anything! It just has to look like it does.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Kinoh signing, tongue between her teeth. The ink (with really bad handwriting) reads “Kinoh Jargarvi”"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Kinoh Jargarvi. You say it under your breath to test it. It sounds very fancy! Very royal.</p>"
+        ]
+      },
+      {
+        type: "next",
+        page: 4
+      }
+    ]
+  },
+  meta: {
+    chapter: 1,
+    page: 3,
+    timestamp: "Sep 29 2026",
+    author: "",
+    notes: "Draft. Swap each placeholder item for {type:'image', src:'...', alt:'...'}"
+  }
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="assets/images/ico.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/mspfa.css">
+  <title>Search ~ PARAQUEL</title>
+</head>
+<body>
+  <div id="main">
+    <header id="site-header"></header>
+
+    <main class="panel">
+      <h1>Search</h1>
+      <p class="blurb">Look through the text of every page.</p>
+      <div class="search-row">
+        <input id="searchInput" type="text" placeholder="Search the text..." aria-label="Search">
+        <input id="searchButton" type="button" value="Search">
+      </div>
+      <div id="searchResults"></div>
+    </main>
+
+    <footer id="site-footer"></footer>
+  </div>
+  <script src="https://unpkg.com/json5@2/dist/index.min.js"></script>
+  <script src="js/chrome.js"></script>
+  <script src="js/pages_index.js"></script>
+  <script src="js/search.js"></script>
+  <script>
+    CHROME.mount();
+    const results = document.getElementById('searchResults');
+    const input = document.getElementById('searchInput');
+    MSPFA_SEARCH.init(results);
+    const go = () => MSPFA_SEARCH.search(input.value, results);
+    document.getElementById('searchButton').onclick = go;
+    input.addEventListener('keydown', e => { if (e.key === 'Enter') go(); });
+  </script>
+</body>
+</html>

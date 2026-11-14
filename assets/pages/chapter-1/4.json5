@@ -1,0 +1,76 @@
+{
+  title: "==>",
+  command: "==>",
+  content: {
+    blocks: [
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the guard snapping the ledger shut one-handed without looking at it, Kinoh’s fresh signature disappearing between the pages. Kinoh stares at him, offended."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>The guard waves the ledger away. He says they’ll lose it by next week, so it doesn’t much matter what you wrote.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You tell him it matters to you. He shrugs and shuts it.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the guard, weary, slumped against the wall with a sword at his belt. His boots are spotless and out of place next to the rest of his uniform."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>The guard’s name is Halvard, he says, and he needs to sit down. His feet hurt. His new boots haven’t been worn in yet. They’re the nicest thing he owns, and he’d like you not to look at them.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You try. Your eyes dart around the room, looking for anything more interesting.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Closeup on Kinoh’s face, eyes darting in every direction, sweat drops on her face"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>...You peek at his boots anyway.</p>"
+        ]
+      },
+      {
+        type: "next",
+        page: 5
+      }
+    ]
+  },
+  meta: {
+    chapter: 1,
+    page: 4,
+    timestamp: "Sep 29 2026",
+    author: "",
+    notes: "Draft. Swap each placeholder item for {type:'image', src:'...', alt:'...'}"
+  }
+}

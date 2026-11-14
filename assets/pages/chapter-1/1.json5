@@ -1,0 +1,61 @@
+{
+  title: "Paraquel: Begin",
+  command: "Paraquel: Begin",
+  content: {
+    blocks: [
+      {
+        type: "text",
+        html: [
+          "<p>Today is the last day of your sentence.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Stone cell wall, tally marks, the last one not yet drawn"
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Three weeks ago you were caught with your hand in a stranger’s coin purse. This might have gone unnoticed if you hadn’t been in a bush at the time.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Outside, bush next to an open-air shop, meeting the wall of a wooden house. Late afternoon. The cat reaches out of the bush and pickpockets a passing stranger, her tail sticking out the back. A guard in the background has noticed."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You had been in that bush for most of the afternoon, tail sticking out the back, waiting for a purse to wander close enough. The guards said your technique, judgment, and choice of foliage would always hold you back.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>...But you have a new plan!</p>"
+        ]
+      },
+      {
+        type: "next",
+        page: 2
+      }
+    ]
+  },
+  meta: {
+    chapter: 1,
+    page: 1,
+    timestamp: "Sep 29 2026",
+    author: "",
+    notes: "Draft. Swap each placeholder item for {type:'image', src:'...', alt:'...'}"
+  }
+}

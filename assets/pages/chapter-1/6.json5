@@ -1,0 +1,106 @@
+{
+  title: "==>",
+  command: "==>",
+  content: {
+    blocks: [
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the wall blows inward. A wall of fire fills the frame."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>The wall blows inward, and for a split second the whole corridor is nothing but light.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the fire passing where Kinoh was a heartbeat ago. She is mid-dive, sideways, wide-eyed and delighted."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>You throw yourself sideways without deciding to. The fire goes past you and takes everything it touches.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Halvard, a few steps behind you, isn’t so lucky.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "the corridor, glowing and smoking. Kinoh on the floor, singed, with nothing on."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>Your prison garments are gone, all of them, burnt to ash in an instant. Your fur is crispy at the edges, and you smell like burnt dough.</p>"
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>It seems you managed to escape mostly unharmed.</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "a silhouette of ash where Halvard stood. Below it, a pair of spotless boots."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>The rest of Halvard is nothing but a burning memory now. His boots are perfectly fine though!</p>"
+        ]
+      },
+      {
+        type: "media",
+        items: [
+          {
+            type: "placeholder",
+            caption: "Kinoh staring at the boots. Beside them, an iron sword lies in the ash, untouched next to a very damaged tough leather belt."
+          }
+        ]
+      },
+      {
+        type: "text",
+        html: [
+          "<p>An iron sword clatters at your feet. It’s Halvard’s, and it came through without a scratch.</p>"
+        ]
+      },
+      {
+        type: "next",
+        page: 7
+      }
+    ]
+  },
+  meta: {
+    chapter: 1,
+    page: 6,
+    timestamp: "Sep 29 2026",
+    author: "",
+    notes: "Draft. Swap each placeholder item for {type:'image', src:'...', alt:'...'}"
+  }
+}
